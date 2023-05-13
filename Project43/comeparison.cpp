@@ -7,20 +7,20 @@ int main()
 	printf("Type an integer: ");
 	scanf_s("%d", &a);
 	
-	if (a > 10)
+	if (a > 15)
 	{
 		printf("You typed %d.\n", a);
-		printf("%d is greater than 10.\n", a);
+		printf("%d is greater than 15.\n", a);
 	}
-    else if (a < 10)
+    else if (a < 15)
 	{
 		printf("You typed %d.\n", a);
-		printf("%d is less than 10.\n", a);
+		printf("%d is less than 15.\n", a);
 	}
 	else
 	{
 		printf("You typed %d.\n", a);
-		printf("%d is 10.\n", a);
+		printf("%d is 15.\n", a);
 	}
 
 }
