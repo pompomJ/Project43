@@ -12,7 +12,7 @@ int main()
 		printf("You typed %d.\n", a);
 		printf("%d is greater than 20.\n", a);
 	}
-    else if (a < 15)
+        else if (a < 20)
 	{
 		printf("You typed %d.\n", a);
 		printf("%d is less than 20.\n", a);
@@ -20,7 +20,7 @@ int main()
 	else
 	{
 		printf("You typed %d.\n", a);
-		printf("%d is 15.\n", a);
+		printf("%d is 20.\n", a);
 	}
 
 }
